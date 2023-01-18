@@ -1,0 +1,38 @@
+/*************************TAG SELECTOR**********************/
+
+body{
+  background-color: #EAF6F6;
+}
+hr { /* background-color: #497174; */
+    border-style: none;
+    height: 2px;
+    border-top-style:dotted ;
+    border-width: 5px;
+    width: 05%;
+}
+h1 {
+  color: #66BFBF;
+}
+h3 {
+  color: #66BFBF;
+}
+/*************************CLASS SELECTOR**********************/
+
+
+.pranav{
+background-color: white;
+ transition: transform .2s;
+
+}
+.borderclass{           /*****more than one class****/
+  border-radius: 30%;
+}
+.pranav:hover{
+  background-color: gold;
+  transform: scale(1.5);
+}
+/*************************ID SELECTOR*********************/
+
+#heading{
+  color: blue;
+}
